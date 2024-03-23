@@ -39,6 +39,7 @@ font-size: 32px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+transform: translateY(-6px);
 }
 .navbar-container .navbar .middle-left-side ul{
     display: flex;
@@ -150,6 +151,272 @@ color: #4F4631;
 .graphic-section .graphic-container .drop-content ul li a img{
     transform: rotate(-90deg);
 }
+.graphic-section .graphic-container .left-side .card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 610px;
+    height: 530px;
+    gap: 16px;
+}
+.graphic-section .graphic-container .sell-section{
+    display: flex;
+    column-gap: 40px;
+}
+.graphic-section .graphic-container .sell-section .left-side .card-container img{
+width: 100%;
+height: 100%;
+}
+.graphic-section .graphic-container .sell-section .left-side .card-container img:nth-child(4){
+    grid-column: 2/5;
+    grid-row: 1/4;
+}
+.graphic-section .graphic-container .sell-section .right-side{
+    width: 600px;
+}
+.graphic-section .graphic-container .sell-section .right-side h1{
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    width: 600px;
+}
+.graphic-section .graphic-container .sell-section .right-side .star-rate .star-container{
+    display: flex;
+    column-gap: 7.1px;
+}
+.graphic-section .graphic-container .sell-section .right-side .star-rate .star-container img{
+    width: 24.712px;
+    height: 24.712px;
+}
+.graphic-section .graphic-container .sell-section .right-side .star-rate p {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+.graphic-section .graphic-container .sell-section .right-side .star-rate{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-top: 15.36px;
+}
+.graphic-section .graphic-container .sell-section .right-side .prize-container{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-top: 14.29px;
+}
+.graphic-section .graphic-container .sell-section .right-side .prize-container h5{
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+}
+.graphic-section .graphic-container .sell-section .right-side .prize-container h6{
+    color: rgba(0, 0, 0, 0.30);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: line-through;
+}
+.graphic-section .graphic-container .sell-section .right-side .prize-container h4{
+    color: #F33;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 6px 14px;
+    background: rgba(255, 51, 51, 0.10);
+    border-radius: 62px;
+}
+.graphic-section .graphic-container .sell-section .right-side .content-graphic{
+    padding-top: 20px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.10);
+}
+.graphic-section .graphic-container .sell-section .right-side .content-graphic span{
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+}
+.graphic-section .graphic-container .sell-section .right-side .header-colors{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.graphic-section .graphic-container .sell-section .right-side .header-colors p{
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+.graphic-section .graphic-container .sell-section .right-side .colors-container{
+    display: flex;
+    column-gap: 16px;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.10);
+    padding-bottom: 24px;
+}
+.graphic-section .graphic-container .sell-section .right-side .colors-container img{
+    padding: 10px 11px 11px 10px;
+    background: #4F4631;
+    border-radius: 50%;
+}
+.graphic-section .graphic-container .sell-section .right-side .colors-container .circle1{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background: #314F4A;
+}
+.graphic-section .graphic-container .sell-section .right-side .colors-container .circle2{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background: #31344F;
+}
+.graphic-section .graphic-container .sell-section .right-side .header-size{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.graphic-section .graphic-container .sell-section .right-side .header-size p{
+    color: rgba(0, 0, 0, 0.60);
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+}
+.graphic-section .graphic-container .sell-section .right-side .size-container .small{
+        border-radius: 62px;
+        cursor: pointer; 
+        transition: .2s;
+}
+.graphic-section .graphic-container .sell-section .right-side .size-container .small:hover {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.graphic-section .graphic-container .sell-section .right-side .size-container .small p{
+    padding: 12px 24px;
+    color: rgba(0, 0, 0, 0.60);
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+background: #F0F0F0;
+border-radius: 62px;
+width: fit-content;
+}
+.graphic-section .graphic-container .sell-section .right-side .size-container .medium{
+    border-radius: 62px;
+    cursor: pointer;
+    transition: .2s;
+}
+.graphic-section .graphic-container .sell-section .right-side .size-container .medium:hover{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.graphic-section .graphic-container .sell-section .right-side .size-container .medium p{
+    padding: 12px 24px;
+    color: rgba(0, 0, 0, 0.60);
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+background: #F0F0F0;
+border-radius: 62px;
+width: fit-content;
+}
+.graphic-section .graphic-container .sell-section .right-side .size-container{
+    display: flex;
+    column-gap: 12px;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.10);
+    padding: 16px 0 24px;
+}
+.graphic-section .graphic-container .sell-section .right-side .size-container .large{
+    border-radius: 62px;
+    cursor: pointer;
+    transition: .2s;
+}
+.graphic-section .graphic-container .sell-section .right-side .size-container .large:hover{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.graphic-section .graphic-container .sell-section .right-side .size-container .large p{
+    padding: 12px 24px;
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+background: #000;
+border-radius: 62px;
+width: fit-content;
+}
+.graphic-section .graphic-container .sell-section .right-side .size-container .x-large{
+    border-radius: 62px;
+    cursor: pointer;
+    transition: .2s;
+}
+.graphic-section .graphic-container .sell-section .right-side .size-container .x-large:hover{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.graphic-section .graphic-container .sell-section .right-side .size-container .x-large p{
+    padding: 12px 24px;
+    color: rgba(0, 0, 0, 0.60);
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+background: #F0F0F0;
+border-radius: 62px;
+width: fit-content;
+}
+.graphic-section .graphic-container .sell-section .right-side .add-card-section .plus-minus{
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    justify-content: space-around;
+    width: 170px;
+    border-radius: 62px;
+background: #F0F0F0;
+}
+.graphic-section .graphic-container .sell-section .right-side .add-card-section .plus-minus img:first-child{
+    margin-left: -20px;
+    cursor: pointer;
+    transition: .2s;
+}
+.graphic-section .graphic-container .sell-section .right-side .add-card-section .plus-minus img:first-child:hover{
+    transform: scale(1.3);
+}
+.graphic-section .graphic-container .sell-section .right-side .add-card-section .plus-minus img:last-child{
+    margin-right: -20px;
+    cursor: pointer;
+    transition: .2s;
+}
+.graphic-section .graphic-container .sell-section .right-side .add-card-section .plus-minus img:last-child:hover{
+    transform: scale(1.3);
+}
+.graphic-section .graphic-container .sell-section .right-side .add-card-section{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 24px ;
+}
+.graphic-section .graphic-container .sell-section .right-side .add-card-section .adding-card{
+    background-color: black;
+    width: 400px;
+    padding: 16px 54px;
+    border-radius: 62px;
+}
+.graphic-section .graphic-container .sell-section .right-side .add-card-section .adding-card span{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
