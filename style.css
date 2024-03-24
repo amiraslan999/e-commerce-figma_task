@@ -635,53 +635,83 @@ border-radius: 62px;
 background: #000;
 color: white;
 }
-.rating-reviews .ratings .cards-rating{
+.rating-reviews .ratings .cards-rating .cards{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
+    margin-bottom: 36.42px;
 }
-.rating-reviews .ratings .cards-rating .card1{
+.rating-reviews .ratings .cards-rating .cards .card1{
     padding: 28px 32px;
     width: 610px;
     border-radius: 20px;
 border: 1px solid rgba(0, 0, 0, 0.10);
 }
-.rating-reviews .ratings .cards-rating .card1 .header{
+.rating-reviews .ratings .cards-rating .cards .card1 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 15px;
 }
-.rating-reviews .ratings .cards-rating .card1 .header .left img{
+.rating-reviews .ratings .cards-rating .cards .card1 .header .left img{
     width: 22.579px;
 height: 22.579px;
 }
-.rating-reviews .ratings .cards-rating .card1 .header .right img{
+.rating-reviews .ratings .cards-rating .cards .card1 .header .right img{
     width: 24px;
 height: 24px;
 }
-.rating-reviews .ratings .cards-rating .card1 .body{
+.rating-reviews .ratings .cards-rating .cards .card1 .body{
     margin-bottom: 24px;
 }
-.rating-reviews .ratings .cards-rating .card1 .body .name{
+.rating-reviews .ratings .cards-rating .cards .card1 .body .name{
     display: flex;
     align-items: center;
     column-gap: 4px;
     margin-bottom: 12px;
 }
-.rating-reviews .ratings .cards-rating .card1 .body .content span{
+.rating-reviews .ratings .cards-rating .cards .card1 .body .content span{
     color: rgba(0, 0, 0, 0.60);
 font-size: 16px;
 font-weight: 400;
 line-height: 22px; /* 137.5% */
 }
-.rating-reviews .ratings .cards-rating .card1 .footer p{
+.rating-reviews .ratings .cards-rating .cards .card1 .footer p{
     color: rgba(0, 0, 0, 0.60);
 font-size: 16px;
 font-weight: 500;
 line-height: 22px; /* 137.5% */
 }
+.rating-reviews .ratings .cards-rating .lead-more-btn{
+    display: flex;
+    justify-content: center;
+}
+.rating-reviews .ratings .cards-rating .lead-more-btn button{
+    padding: 16px 45px;
+    color: #000;
+font-size: 16px;
+font-weight: 500;
+line-height: normal;
+border-radius: 62px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+background-color: transparent;
+}
+@media screen and (max-width:1275px) {
+    .rating-reviews .ratings .header-review{
+        column-gap: 0px;
+        transform: translateX(0.1px);
+    }
+    .rating-reviews .ratings .header-review p {
+font-size: 16px;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+    }
+    .rating-reviews .ratings .lines .line1{
+        width: 500px;
+    }
+}
+
 
 
 
