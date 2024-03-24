@@ -265,18 +265,21 @@ border-radius: 20px;
     padding: 10px 11px 11px 10px;
     background: #4F4631;
     border-radius: 50%;
+    cursor: pointer;
 }
 .graphic-section .graphic-container .sell-section .right-side .colors-container .circle1{
     width: 37px;
     height: 37px;
     border-radius: 50%;
     background: #314F4A;
+    cursor: pointer;
 }
 .graphic-section .graphic-container .sell-section .right-side .colors-container .circle2{
     width: 37px;
     height: 37px;
     border-radius: 50%;
     background: #31344F;
+    cursor: pointer;
 }
 .graphic-section .graphic-container .sell-section .right-side .header-size{
     margin-top: 24px;
@@ -548,14 +551,137 @@ background: #F0F0F0;
             transform: translateY(-3px)
         }
 }
-
-
-
-
-
-
-
-
+.rating-reviews .ratings .header-review{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 100px;
+    transform: translateX(-30px);
+}
+.rating-reviews .ratings .header-review p{
+    color: rgba(0, 0, 0, 0.60);
+font-size: 17px;
+font-weight: 400;
+line-height: 22px; /* 110% */
+}
+.rating-reviews .ratings .header-review p:nth-child(2){
+    color: #000;
+}
+.rating-reviews .ratings .lines{
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.rating-reviews .ratings .lines .line1{
+    width: 413px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.60);
+}
+.rating-reviews .ratings .lines .line2{
+    width: 414px;
+    height: 3px;
+    background: #000;
+}
+.rating-reviews .ratings .lines .line3{
+    width: 413px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.60);
+}
+.rating-reviews .ratings .amount-rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.rating-reviews .ratings .amount-rating .left{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.rating-reviews .ratings .amount-rating .left p:nth-child(1){
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+.rating-reviews .ratings .amount-rating .left p:nth-child(2){
+    color: rgba(0, 0, 0, 0.60);
+font-size: 14px;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+transform: translateY(2.5px);
+}
+.rating-reviews .ratings .amount-rating .right{
+    display: flex;
+    column-gap: 10px;
+}
+.rating-reviews .ratings .amount-rating .right .set img{
+    padding: 16px 18px;
+    border-radius: 62px;
+background: #F0F0F0;
+}
+.rating-reviews .ratings .amount-rating .right .latest span{
+    padding: 16px 20px;
+    border-radius: 62px;
+background: #F0F0F0;
+display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.rating-reviews .ratings .amount-rating .right .write p{
+padding: 16px 20px;
+border-radius: 62px;
+background: #000;
+color: white;
+}
+.rating-reviews .ratings .cards-rating{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.rating-reviews .ratings .cards-rating .card1{
+    padding: 28px 32px;
+    width: 610px;
+    border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+}
+.rating-reviews .ratings .cards-rating .card1 .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.rating-reviews .ratings .cards-rating .card1 .header .left img{
+    width: 22.579px;
+height: 22.579px;
+}
+.rating-reviews .ratings .cards-rating .card1 .header .right img{
+    width: 24px;
+height: 24px;
+}
+.rating-reviews .ratings .cards-rating .card1 .body{
+    margin-bottom: 24px;
+}
+.rating-reviews .ratings .cards-rating .card1 .body .name{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    margin-bottom: 12px;
+}
+.rating-reviews .ratings .cards-rating .card1 .body .content span{
+    color: rgba(0, 0, 0, 0.60);
+font-size: 16px;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+}
+.rating-reviews .ratings .cards-rating .card1 .footer p{
+    color: rgba(0, 0, 0, 0.60);
+font-size: 16px;
+font-weight: 500;
+line-height: 22px; /* 137.5% */
+}
 
 
 
