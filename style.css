@@ -1158,6 +1158,7 @@ line-height: normal;
     }
     .footer-section .footer-container .main-content-footer {
         flex-wrap: wrap;
+        /* transform: translateY(-30%); */
     }
     .footer-section .footer-container .main-content-footer .side1 p{
         width: 357px;
@@ -1178,5 +1179,10 @@ line-height: normal;
     }
     .footer-section .footer-container .main-content-footer .side6{
         margin-top: 24px;
+    }
+    .footer-section .footer-container .second-content-footer{
+        flex-direction: column;
+        row-gap: 16px;
+        /* transform: translateY(-210%); */
     }
 }
