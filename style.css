@@ -858,7 +858,7 @@ line-height: 22px; /* 157.143% */
    }
 }
 .also-like-section{
-    margin-bottom: 78px;
+    margin-bottom: 168px;
 }
 .also-like-section .like-container header{
     margin-bottom: 55px;
@@ -976,11 +976,11 @@ font-size: 12px;
         font-size: 10px;
     }
 }
-/* .upto-date-section{
+.upto-date-section{
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
-} */
+    transform: translate(-50%, -48%);
+}
 .upto-date-section .upto-date-container .information-container{
     padding: 36px 64px;
     width: 1240px;
@@ -1035,8 +1035,13 @@ transition: .2s;
     color: grey;
 }
 @media screen and (max-width:1275px){
-    .upto-date-section{
+    /* .upto-date-section{
         transform: translateY(-240px);
+    } */
+    .upto-date-section{
+        position: absolute;
+        transform: translate( -50%, -95%);
+        z-index: 1;
     }
     .upto-date-section .upto-date-container .information-container .left-side p {
         width: 297px;
@@ -1069,7 +1074,109 @@ line-height: normal;
 }
 .footer-section{
     background: #F0F0F0;
+    padding-top: 140px;
+    padding-bottom: 88px;
 }
-
-
-
+.footer-section .footer-container .main-content-footer .right-side{
+    display: flex;
+}
+.footer-section .footer-container .main-content-footer{
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+.footer-section .footer-container .main-content-footer .side1 h2{
+    color: #000;
+    font-size: 33.455px;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer-section .footer-container .main-content-footer .side1 p{
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.60);
+font-size: 14px;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+width: 248px;
+}
+.footer-section .footer-container .main-content-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-section .footer-container .main-content-footer .side1 .icons{
+    margin-top: 35px;
+}
+.footer-section .footer-container .main-content-footer .side1 .icons img{
+    width: 148px;
+    height: 28px;
+}
+.footer-section .footer-container .main-content-footer .side2 .header-ul{
+    margin-bottom: 26px;
+}
+.footer-section .footer-container .main-content-footer .side2 .header-ul p{
+    color: #000;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px; /* 112.5% */
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.footer-section .footer-container .main-content-footer .side2 ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+.footer-section .footer-container .main-content-footer .side2 ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.60);
+font-size: 16px;
+font-weight: 400;
+line-height: 19px; /* 118.75% */
+transition: .2s;
+}
+.footer-section .footer-container .main-content-footer .side2 ul li a:hover{
+    color: #4F4631;
+}
+.footer-section .footer-container .second-content-footer{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-section .footer-container .second-content-footer .left span{
+    color: rgba(0, 0, 0, 0.60);
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+}
+@media screen and (max-width:1275px) {
+    .footer-section{
+        transform: translateY(-20%);
+        padding-top: 280px;
+        padding-bottom: 77.26px;
+    }
+    .footer-section .footer-container .main-content-footer {
+        flex-wrap: wrap;
+    }
+    .footer-section .footer-container .main-content-footer .side1 p{
+        width: 357px;
+    }
+    .footer-section .footer-container .main-content-footer .side1 p{
+        margin-top: 14px;
+    }
+    .footer-section .footer-container .main-content-footer .side1 .icons img {
+        margin-bottom: 24.42px;
+    }
+    .footer-section .footer-container .main-content-footer .side2{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+    }
+    .footer-section .footer-container .main-content-footer .side5{
+        margin-top: 24px;
+    }
+    .footer-section .footer-container .main-content-footer .side6{
+        margin-top: 24px;
+    }
+}
