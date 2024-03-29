@@ -938,11 +938,11 @@ font-weight: 700;
 line-height: 36px; /* 112.5% */
     }
     .also-like-section .like-container .image-container{
-        overflow: scroll;
+        overflow: auto;
     }
     .also-like-section .like-container .image-container .image1-container .header img{
-        width: 100%;
-        height: 100%;
+        width: 199px;
+        height: 200px;
         object-fit: cover;
     }
     .also-like-section .like-container .image-container .image1-container .inform1 p{
@@ -1172,5 +1172,12 @@ line-height: normal;
     .footer-section .footer-container .second-content-footer{
         flex-direction: column;
         row-gap: 16px;
+    }
+    .footer-section .footer-container .main-content-footer .side2 .header-ul p{
+        font-size: 14px;
+    }
+    .footer-section .footer-container .main-content-footer .side2 ul li a{
+        font-size: 14px;
+        line-height: 16px;
     }
 }
