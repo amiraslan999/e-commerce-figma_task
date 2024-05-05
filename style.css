@@ -40,6 +40,17 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 transform: translateY(-6px);
+animation: scaleAnime 0.8s  infinite alternate;
+}
+@keyframes scaleAnime {
+    0%{
+        transform: scale(0.7);
+        color: red;
+    }
+    100%{
+        transform: scale(0.9);
+        color: #314F4A;
+    }
 }
 .navbar-container .navbar .middle-left-side ul{
     display: flex;
@@ -152,6 +163,17 @@ transform: scale(1.1);
 .graphic-section .graphic-container .drop-content ul li a img{
     transform: rotate(-90deg);
 }
+.graphic-section .graphic-container .left-side{
+    animation: comeFromLeft 2000ms linear;
+}
+@keyframes comeFromLeft {
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
 .graphic-section .graphic-container .left-side .card-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -179,6 +201,15 @@ border-radius: 20px;
 }
 .graphic-section .graphic-container .sell-section .right-side{
     width: 600px;
+    animation: comeFromRight 2000ms linear;
+}
+@keyframes comeFromRight {
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateX(0px);
+    }
 }
 .graphic-section .graphic-container .sell-section .right-side h1{
     color: #000;
